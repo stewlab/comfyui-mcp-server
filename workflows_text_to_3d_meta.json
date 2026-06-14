@@ -1,0 +1,17 @@
+{
+  "name": "Text to 3D",
+  "description": "Generate a 3D .glb model from a text prompt. Chains SDXL image generation with Hunyuan3D v2.1.",
+  "defaults": {
+    "model": "sd_xl_base_1.0.safetensors",
+    "steps": 20,
+    "cfg": 8.0,
+    "width": 1024,
+    "height": 1024,
+    "seed": 42,
+    "sampler_name": "euler",
+    "scheduler": "normal",
+    "denoise": 1.0,
+    "negative_prompt": "text, watermark, blurry, low quality, deformed"
+  },
+  "constraints": {}
+}
