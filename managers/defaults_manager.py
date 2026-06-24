@@ -39,7 +39,7 @@ class DefaultsManager:
                 "sampler_name": "euler",
                 "scheduler": "normal",
                 "denoise": 1.0,
-                "model": "v1-5-pruned-emaonly.ckpt",
+                "model": "flux1-schnell-fp8.safetensors",
                 "negative_prompt": "text, watermark",
             },
             "audio": {
@@ -50,7 +50,7 @@ class DefaultsManager:
                 "denoise": 1.0,
                 "seconds": 60,
                 "lyrics_strength": 0.99,
-                "model": "ace_step_v1_3.5b.safetensors",
+                "model": "stable-audio-open-1.0.safetensors",
             },
             "video": {
                 "width": 1280,

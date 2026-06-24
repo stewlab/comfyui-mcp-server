@@ -122,7 +122,7 @@
   },
   "74:40": {
     "inputs": {
-      "ckpt_name": "ace_step_v1_3.5b.safetensors"
+      "ckpt_name": "stable-audio-open-1.0.safetensors"
     },
     "class_type": "CheckpointLoaderSimple",
     "_meta": {
